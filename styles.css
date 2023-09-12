@@ -5,16 +5,17 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-    
+
+
 body{
 	background-color: var(--blanco);
-	padding-top: 80px;
+	padding-top: 60px;
 }
 .inicio{
     display: flex;
     justify-content: space-between;
     background-color: var(--blanco);
-    padding: 32px;
+    padding: 12px;
     width: 100%;
     position: fixed;
     left: 0;
@@ -54,31 +55,30 @@ h2{
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 20px;
     justify-content: space-between;
     padding: 80px;
 }
-.imagen{
-    border-radius: 15px;
-}
+
 .informacion{
     display:flex;
     padding: 12px;
     gap: 150px;
     font-size: 16px;
 }
-footer a {
-    text-decoration: none;
+.footer-item {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color: var(--blanco);
     background-color:var(--negro);
-    
+    display: flex;
+    gap: 10px;
 }
 footer {
     display: flex;
     background-color: var(--negro);
     justify-content: space-between;
     width: 100%;
-    padding: 24px;
+    padding: 10px;
+    flex: 1;
 }
