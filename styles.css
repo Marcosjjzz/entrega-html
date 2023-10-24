@@ -38,6 +38,12 @@ body{
 .intro2 img{
     padding: 16px;
 }
+.burguer{
+    transition: background-color 0.5s;
+}
+.burguer:hover{
+    background-color: red;
+}
 .letra{
     
     font-weight: 700;
